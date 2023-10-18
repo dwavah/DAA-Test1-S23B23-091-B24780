@@ -11,7 +11,7 @@ def insertionSort(A, n):
         nextpos = pos
         while nextpos > 0 and A[nextpos] < A[nextpos - 1]:
             swap(A, nextpos, nextpos - 1)
-            nextpos -= 1  # Fix the decrement operator (~ should be replaced with -)
+            nextpos -= 1  
 
     return A
 
